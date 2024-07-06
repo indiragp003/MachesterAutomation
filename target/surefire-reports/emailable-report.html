@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Main Test Suite</th></tr>
+<tr><td><a href="#t0">ExecuteTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">176,337</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Main Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ExecuteTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">ManUTDRegression.test.SingUpTest</td><td><a href="#m0">cleanUp</a></td><td rowspan="1">1713883778017</td><td rowspan="1">845</td></tr><tr><th colspan="4">ExecuteTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ManUTDRegression.test.SingUpTest</td><td><a href="#m1">runSingUp</a></td><td rowspan="1">1713883633186</td><td rowspan="1">144820</td></tr></tbody>
+</table>
+<h2>ExecuteTest</h2><h3 id="m0">ManUTDRegression.test.SingUpTest#cleanUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, quit {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at ManUTDRegression.test.BaseTest.cleanUp(BaseTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ManUTDRegression.test.SingUpTest#runSingUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pradeep</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, getContextHandles {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:267)
+	at io.appium.java_client.remote.SupportsContextSwitching.getContextHandles(SupportsContextSwitching.java:58)
+	at ManUTDRegression.framework.generic.GenericLib.switchToWebViewContext(GenericLib.java:2600)
+	at ManUTDRegression.pom.singuppage.SingUp.test(SingUp.java:67)
+	at ManUTDRegression.test.SingUpTest.runSingUp(SingUpTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

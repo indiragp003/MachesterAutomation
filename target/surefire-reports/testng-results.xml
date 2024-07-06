@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T20:16:42 IST" name="Main Test Suite" finished-at="2024-04-23T20:19:38 IST" duration-ms="176337">
+    <groups>
+    </groups>
+    <test started-at="2024-04-23T20:16:42 IST" name="ExecuteTest" finished-at="2024-04-23T20:19:38 IST" duration-ms="176337">
+      <class name="ManUTDRegression.test.SingUpTest">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:ManUTDRegression.test.SingUpTest@18078bef]" started-at="2024-04-23T20:16:41 IST" name="beforeSuite" finished-at="2024-04-23T20:16:42 IST" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@314b7945]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext)[pri:0, instance:ManUTDRegression.test.SingUpTest@18078bef]" started-at="2024-04-23T20:16:42 IST" name="init" finished-at="2024-04-23T20:17:11 IST" duration-ms="29257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@314b7945]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="runSingUp(java.lang.String)[pri:0, instance:ManUTDRegression.test.SingUpTest@18078bef]" started-at="2024-04-23T20:17:13 IST" name="runSingUp" data-provider="SingUp" finished-at="2024-04-23T20:19:38 IST" duration-ms="144820" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pradeep]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown error has occurred
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, getContextHandles {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, getContextHandles {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:267)
+at io.appium.java_client.remote.SupportsContextSwitching.getContextHandles(SupportsContextSwitching.java:58)
+at ManUTDRegression.framework.generic.GenericLib.switchToWebViewContext(GenericLib.java:2600)
+at ManUTDRegression.pom.singuppage.SingUp.test(SingUp.java:67)
+at ManUTDRegression.test.SingUpTest.runSingUp(SingUpTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSingUp -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ManUTDRegression.test.SingUpTest@18078bef]" started-at="2024-04-23T20:19:38 IST" name="cleanUp" finished-at="2024-04-23T20:19:38 IST" duration-ms="845" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown error has occurred
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, quit {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown error has occurred
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [3d486900b03063cb3a1e56b407d8ac7290358eb2, quit {}]
+Capabilities {appium:appActivity: com.manutd.ui.activity.Spla..., appium:appPackage: com.mu.muclubapp.staging_mu..., appium:automationName: uiautomator2, appium:browserstack.key: myzal82yr4hmhgzpqghy, appium:browserstack.user: elamathivijayasa_braxh3, appium:chromedriverArgs: [--adb-port=5038], appium:chromedriverPort: 18080, appium:chromedriverPorts: [[18100, 18110]], appium:databaseEnabled: false, appium:desired: {appActivity: com.manutd.ui.activity.Spla..., appPackage: com.mu.muclubapp.staging_mu..., automationName: uiautomator2, browserstack.key: myzal82yr4hmhgzpqghy, browserstack.user: elamathivijayasa_braxh3, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18080, chromedriverPorts: [[18100, 18110]], device: google pixel 7, deviceName: google pixel 7, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, interactiveDebugging: true, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8200, udid: 28241FDH200GKZ}, appium:device: google pixel 7, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 7, appium:deviceName: 28241FDH200GKZ, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 28241FDH200GKZ, appium:disableSuppressAccessibilityService: true, appium:interactiveDebugging: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:skipServerInstallation: true, appium:statBarHeight: 118, appium:systemPort: 8200, appium:takesScreenshot: true, appium:udid: 28241FDH200GKZ, appium:viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {accessKey: myzaL82yR4HMHGzpqghY, userName: elamathivijayasa_BRaXh3}, goog:chromeOptions: {}, platformName: ANDROID}
+Session ID: 3d486900b03063cb3a1e56b407d8ac7290358eb2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+at ManUTDRegression.test.BaseTest.cleanUp(BaseTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ManUTDRegression.test.SingUpTest -->
+    </test> <!-- ExecuteTest -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
